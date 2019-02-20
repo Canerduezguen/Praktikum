@@ -9,7 +9,8 @@ h1 {
   text-align: center;
 }
 
-p, li {
+p,
+li {
   font-size: 16px;
   line-height: 2;
   letter-spacing: 1px;
@@ -17,7 +18,7 @@ p, li {
 
 
 html {
-  background-color:black(0, 159, 151);
+  background-color: black(0, 159, 151);
 }
 
 body {
