@@ -16,17 +16,28 @@ li {
   letter-spacing: 1px;
 }
 
-
-html {
-  background-color: black(0, 159, 151);
-}
-
 body {
   width: 600px;
   margin: 0 auto;
   background-color: rgba(0, 0, 0, 0);
   padding: 0 20px 20px 20px;
   border: 5px solid white;
+}
+
+.blaues-div {
+  background: #00539F;
+}
+
+.blaues-div p {
+  color: white;
+}
+
+.unteres-div {
+  border: 3px solid green;
+}
+
+#meine-liste {
+  background-color: purple;
 }
 
 h1 {
