@@ -1,29 +1,35 @@
 html {
-  font-size: 4px;
+  font-size: 12pt;
   font-family: 'Open Sans', sans-serif;
 }
 
 
+:root {
+  font-size: 16pt;
+}
+
 h1 {
-  font-size: 60px;
+  font-size: 1.5em;
   text-align: center;
 }
 
 p,
 li {
-  font-size: 5px;
+  font-size: px;
   line-height: 2;
   letter-spacing: 1px;
 }
+
 body {
   width: 1918px;
   margin: auto;
-  background-color: rgb(255, 255, 255) ;
+  background-color: rgb(255, 255, 255);
   padding: 20 20px 20px 20px;
   border: px solid rgb(0, 0, 0);
 }
+
 .blaues-div p {
-  color:  black;
+  color: black;
 }
 
 .unteres-div {
@@ -34,9 +40,20 @@ body {
   background-color: rgb(255, 255, 255);
 }
 
-}
-
 img {
   display: block;
   margin: 0 auto;
+}
+
+.menu {
+  display: flex;
+}
+
+.menu li {
+  list-style: none;
+  padding-left: 20px;
+}
+
+.menu a {
+  text-decoration: none;
 }
